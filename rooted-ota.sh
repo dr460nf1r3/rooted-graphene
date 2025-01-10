@@ -35,7 +35,7 @@ OTA_VERSION=${OTA_VERSION:-'latest'}
 # Breaking changes in magisk might need to be adapted in new avbroot version
 # Find latest magisk version here: https://github.com/topjohnwu/Magisk/releases, or:
 # curl --fail -sL -I -o /dev/null -w '%{url_effective}' https://github.com/topjohnwu/Magisk/releases/latest | sed 's/.*\/tag\///;'
-MAGISK_VERSION=${MAGISK_VERSION:-'v28.1'}
+MAGISK_VERSION=${MAGISK_VERSION:-'canary-28003'}
 
 SKIP_CLEANUP=${SKIP_CLEANUP:-''}
 
@@ -201,7 +201,7 @@ function downloadAndroidDependencies() {
 
   mkdir -p .tmp
   if ! ls ".tmp/magisk-$MAGISK_VERSION.apk" >/dev/null 2>&1 && [[ "${POTENTIAL_ASSETS['magisk']+isset}" ]]; then
-    curl --fail -sLo ".tmp/magisk-$MAGISK_VERSION.apk" "https://github.com/topjohnwu/Magisk/releases/download/$MAGISK_VERSION/Magisk-$MAGISK_VERSION.apk"
+    curl --fail -sLo ".tmp/magisk-$MAGISK_VERSION.apk" "https://github.com/pixincreate/Magisk/releases/download/$MAGISK_VERSION/app-release.apk"
   fi
 
   if ! ls ".tmp/$OTA_TARGET.zip" >/dev/null 2>&1; then
