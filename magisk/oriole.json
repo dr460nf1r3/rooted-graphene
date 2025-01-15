@@ -1,7 +1,7 @@
 {
   "version": 2,
   "full": {
-    "location_ota": "https://github.com/dr460nf1r3/rooted-graphene/releases/download/2025010700/oriole-2025010700-a357774-magisk-canary-28003.zip",
-    "location_csig": "https://github.com/dr460nf1r3/rooted-graphene/releases/download/2025010700/oriole-2025010700-a357774-magisk-canary-28003.zip.csig"
+    "location_ota": "https://github.com/dr460nf1r3/rooted-graphene/releases/download/2025011500/oriole-2025011500-ada82d8-magisk-canary-28003.zip",
+    "location_csig": "https://github.com/dr460nf1r3/rooted-graphene/releases/download/2025011500/oriole-2025011500-ada82d8-magisk-canary-28003.zip.csig"
   }
 }
