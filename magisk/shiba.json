@@ -1,7 +1,7 @@
 {
   "version": 2,
   "full": {
-    "location_ota": "https://github.com/dr460nf1r3/rooted-graphene/releases/download/2025090600/shiba-2025090600-8612351-magisk-canary-28003.zip",
-    "location_csig": "https://github.com/dr460nf1r3/rooted-graphene/releases/download/2025090600/shiba-2025090600-8612351-magisk-canary-28003.zip.csig"
+    "location_ota": "https://github.com/dr460nf1r3/rooted-graphene/releases/download/2025091000/shiba-2025091000-049d521-magisk-canary-28003.zip",
+    "location_csig": "https://github.com/dr460nf1r3/rooted-graphene/releases/download/2025091000/shiba-2025091000-049d521-magisk-canary-28003.zip.csig"
   }
 }
