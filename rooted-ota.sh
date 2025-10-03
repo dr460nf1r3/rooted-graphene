@@ -50,7 +50,7 @@ UPLOAD_TEST_OTA=${UPLOAD_TEST_OTA:-false}
 OTA_CHANNEL=${OTA_CHANNEL:-stable} # Alternative: 'alpha'
 OTA_BASE_URL="https://releases.grapheneos.org"
 
-AVB_ROOT_VERSION=3.23.0
+AVB_ROOT_VERSION=3.23.1
 
 CUSTOTA_VERSION=5.16
 
