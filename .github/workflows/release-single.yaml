@@ -55,7 +55,7 @@ jobs:
   build-device:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           # Allow for switching to github-pages branch
           fetch-depth: 0
